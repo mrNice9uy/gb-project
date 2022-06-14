@@ -1,7 +1,14 @@
+import React from "react";
+import Message from "./components/MessageComponent/Message";
 import "./App.css";
 
-function App() {
-  return <div className="App">test</div>;
-}
+const App = () => {
+  const text = "Test";
+  return (
+    <div className="App">
+      <Message text={text} />
+    </div>
+  );
+};
 
 export default App;
